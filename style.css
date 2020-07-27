@@ -1,0 +1,75 @@
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.user-phone {
+	width: 150px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px 8px 8px 8px;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: ultra-condensed;
+	color: #363636;
+	text-align: center;
+	border-radius: 2px;
+	font-family: Trebuchet MS, sans-serif;
+}
+.user-phone:focus {
+	outline: none;
+	border-color: #363636;
+}
+input.user-phone:-moz-placeholder {
+	color: #363636;
+}
+input.user-phone::-webkit-input-placeholder {
+	color: #363636;
+}
+.cl_btn{
+	width: 150px;
+	height: 30px;
+	margin-top: 20px;
+	background: #72BF44;
+	color: #fff;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 10px;
+	border-radius: 2px;
+	font-weight:bold;
+	 text-transform: uppercase;
+	border-bottom: 4px solid green;
+}
+
+.btn_submit {
+	font-family: Helvetica, sans-serif;
+	margin-top: 20px;
+	font-size: 10px;
+	font-weight:bolder;
+	 text-transform: uppercase;
+	height: 30px;
+	background: #72BF44;
+	color: #fff;
+	border: none;
+	width: 150px;
+	cursor: pointer;
+	  box-shadow: -1px 10px 0px -6px #0ba229;
+}
+
+.cl_Form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	margin: 25px;
+	width: 450px;
+	height: 150px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 14px 49px -12px #0ba229;
+}
+
